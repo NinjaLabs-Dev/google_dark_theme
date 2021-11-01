@@ -1,5 +1,6 @@
 # Theme based on Google app dark theme
 # Creator: Juan - @juanmtech
+# Edits: Ninja - @NinjaLabs_
 # Website: https://www.juanmtech.com
 # YouTube Channel: https://youtube.com/juanmtech
 # My Home Assistant Config files: https://github.com/JuanMTech/Home_Assistant_files
@@ -10,12 +11,13 @@ Google Dark Theme:
   app-header-background-color: rgb(23, 23, 23)
   app-header-text-color: rgb(198, 203, 210)
   # Main Interface Colors
-  primary-color: rgb(138, 180, 248)
+  main-color: rgb(239, 138, 248)
+  primary-color: var(--main-color)
   light-primary-color: var(--primary-color)
   primary-background-color: rgb(23, 23, 23)
   secondary-background-color: rgb(32, 33, 36)
   divider-color: var(--primary-background-color)
-  accent-color: rgb(138, 180, 248)
+  accent-color: var(--main-color)
   # Text
   primary-text-color: rgb(242, 242, 242)
   secondary-text-color: rgb(166, 166, 166)
@@ -26,17 +28,17 @@ Google Dark Theme:
   sidebar-text-color: rgb(198, 203, 210)
   sidebar-background-color: rgb(32, 33, 36)
   sidebar-selected-background-color: var(--primary-background-color)
-  sidebar-selected-icon-color: rgb(138, 180, 248)
+  sidebar-selected-icon-color: var(--main-color)
   sidebar-selected-text-color: var(--sidebar-selected-icon-color)
   # Buttons
   paper-item-icon-color: rgb(169, 177, 188)
-  paper-item-icon-active-color: rgb(138, 180, 248)
+  paper-item-icon-active-color: var(--main-color)
   # States and Badges
-  state-icon-color: rgb(138, 180, 248)
+  state-icon-color: var(--main-color)
   state-icon-active-color: rgb(169, 177, 188)
   state-icon-unavailable-color: var(--disabled-text-color)
   # Sliders
-  paper-slider-knob-color: rgb(138, 180, 248)
+  paper-slider-knob-color: var(--main-color)
   paper-slider-knob-start-color: var(--paper-slider-knob-color)
   paper-slider-pin-color: var(--paper-slider-knob-color)
   paper-slider-active-color: var(--paper-slider-knob-color)
@@ -46,7 +48,7 @@ Google Dark Theme:
   label-badge-text-color: rgb(198, 203, 210)
   label-badge-red: rgb(208, 101, 104)
   label-badge-green: rgb(128, 200, 132)
-  label-badge-blue: rgb(138, 180, 248)
+  label-badge-blue: var(--main-color)
   label-badge-yellow: rgb(223, 194, 113)
   label-badge-gray: rgb(95, 98, 103)
   # Cards
@@ -57,8 +59,8 @@ Google Dark Theme:
   paper-listbox-background-color: var(--card-background-color)
   paper-card-background-color: var(--card-background-color)
   # Switches
-  switch-checked-button-color: rgb(138, 180, 248)
-  switch-checked-track-color: rgb(138, 180, 248)
+  switch-checked-button-color: var(--main-color)
+  switch-checked-track-color: var(--main-color)
   switch-unchecked-button-color: rgb(172, 176, 185)
   switch-unchecked-track-color: rgb(154, 160, 166)
   # Toggles
